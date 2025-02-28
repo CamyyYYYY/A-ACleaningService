@@ -151,6 +151,8 @@ html, body{
 .main-header{
     margin: 0 auto;
     width: 580px;
+    padding: 10px;
+    overflow: hidden;
     text-align: center;
     font-size: 2rem;
     background-color: black;
@@ -165,7 +167,7 @@ html, body{
     margin: 0 auto;
     width: 600px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     background-color: black;
     border-width: 10px;
     border-color: white;
