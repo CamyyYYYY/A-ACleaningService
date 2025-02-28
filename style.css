@@ -1,0 +1,187 @@
+body{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+
+html, body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.custom-border{
+    background-color: black;
+    border-width: 10px;
+    border-color: white;
+    border-style:solid;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.main-subheadertwoservices{
+    font-size: 4rem;
+}
+
+.main-subheaderone{
+    text-align: center;
+    font-size: 2.2rem;
+    background-color: #b79287;
+    color: black;
+    border-width: 10px;
+    border-color:black;
+    border-style: double;
+    margin: auto;
+    max-width: 90%;
+}
+
+.main-subheadertwo{
+    margin: 0 auto;
+    width: 700px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: white;   
+}
+
+.main-subheaderthree{
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    border-width: 10px;
+    border-color:white;
+    border-style: double;
+    max-width: 85%;
+    margin: auto;
+    padding-bottom: 3%;
+    margin: auto;
+    
+}
+
+.my-image{
+    border-radius: 20px;
+    max-width: 80%;
+}
+
+.my-imagetwo{
+    border-radius: 20px;
+}
+
+.words{
+    text-align: center;
+    font-size: 2.6rem;
+    background-color: #b79287;
+    border-width: 10px;
+    border-color: black;
+    border-style: double;
+    color: black; 
+    max-width: 1000px;  
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.wordstwo{
+    font-size: 4.5rem;
+    background-color: #b79287;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    color: black;   
+}
+
+.wordsfour{
+    max-width: 95%;
+    font-size: 3rem;
+    background-color: #b79287;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    color: white;   
+    padding-bottom: 2%;
+    margin: auto;
+}
+
+.wordssix{
+    max-width: 850px;
+    font-size: 3rem;
+    background-color: black;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: white;
+    border-style: double;
+    color: white;   
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: auto;
+}
+
+.wordsfive{
+    max-width: 850px;
+    font-size: 3rem;
+    background-color: #b79287;
+    border-width: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: double;
+    color: white;   
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: auto;
+}
+
+.main-header2{
+    max-width: 90%;
+    background-color: #b79287;
+    border-width: 10px;
+    border-color: black;
+    border-style: double;
+    color: black;
+    margin: 0 auto;
+}
+
+.main-header{
+    margin: 0 auto;
+    width: 580px;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    border-width: 10px;
+    border-color: white;
+    border-style: double;
+    color: white;
+}
+
+.title{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    font-size: 1.7rem;
+    background-color: black;
+    border-width: 10px;
+    border-color: white;
+    border-style: double;
+    color: white;
+}
+
+
+.font-title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.font-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.underline{
+    text-decoration: underline;
+}
