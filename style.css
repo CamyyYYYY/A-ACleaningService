@@ -150,12 +150,12 @@ html, body{
     color: black;
     margin: 0 auto;
     font-size: 2rem;
+    white-space: nowrap;
 }
 
 .main-header{
     margin: 0 auto;
     width: 580px;
-    padding: 10px;
     overflow: hidden;
     white-space: nowrap;
     text-align: center;
@@ -168,12 +168,13 @@ html, body{
 }
 
 .title{
-    display: inline-block;
-    white-space: nowrap;
-    max-width: 120%;
+    max-width: 85%;
+    display: block;
+    white-space: normal;
+    overflow-wrap: break-word;
     margin: 0 auto;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.6rem;
     background-color: black;
     border-width: 10px;
     border-color: white;
