@@ -52,13 +52,13 @@ html, body{
 }
 
 .main-subheaderthree{
-    font-size: 3rem;
+    font-size: 2.5rem;
     background-color: black;
     color: white;
     border-width: 10px;
     border-color:white;
     border-style: double;
-    max-width: 85%;
+    max-width: 70%;
     margin: auto;
     padding-bottom: 3%;
     margin: auto;
@@ -66,14 +66,42 @@ html, body{
 }
 
 .my-image{
-    border-radius: 20px;
+    border-radius: 15px;
     max-width: 80%;
+    object-fit: contain;
+}
+
+.my-image[src="reviews.jpg"]{
+    max-width: 55%; 
+    height: auto; 
+    object-fit: contain; 
+}
+
+.my-imagetwo[src="facebook.jpg"] {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.my-imagetwo[src="thumbtack.jpg"] {
+    max-width: 44%;
+    height: auto;
+    object-fit: contain;
 }
 
 .my-imagetwo{
     border-radius: 20px;
     max-width: 80%;
 }
+
+
+.carousel img{
+    width: 35%; 
+    height: auto; 
+    max-width: 100%;
+}
+
+
 
 .words{
     text-align: center;
@@ -97,6 +125,7 @@ html, body{
     border-style: double;
     color: black;   
     margin: auto;
+    flex-grow: 4;
 }
 
 .wordsfour{
