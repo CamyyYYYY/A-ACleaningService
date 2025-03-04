@@ -19,7 +19,7 @@ html, body{
     padding-left: 1px;
     padding-right: 1px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .text-center{
@@ -60,50 +60,47 @@ html, body{
     border-style: double;
     max-width: 90%;
     margin: auto;
-    padding-bottom: 3.5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
     margin: auto;
     
 }
 
 .my-image{
-    border-radius: 15px;
-    max-width: 80%;
-    object-fit: contain;
+    border-radius: 20px;
 }
 
-.my-image[src="reviews.jpg"]{
-    max-width: 100%; 
+.my-image[src="reviewone.jpg"] .my-image[src="reviewtwo.jpg"] .my-image[src="reviewthree.jpg"] {
+    max-width: 110%; 
     height: auto; 
-    object-fit: contain; 
+    object-fit: contain;
 }
 
 .my-image[src="about.jpg"]{
     max-width: 100%; 
     height: auto; 
+    border-radius: 20px;
 }
 
 .my-imagetwo[src="facebook.jpg"] {
     max-width: 100%;
     height: auto;
     object-fit: contain;
+    border-radius: 20px;
 }
 
 .my-imagetwo[src="thumbtack.jpg"] {
     max-width: 44%;
     height: auto;
     object-fit: contain;
-}
-
-.my-imagetwo{
     border-radius: 20px;
-    max-width: 80%;
 }
-
 
 .carousel img{
     width: 35%; 
     height: auto; 
     max-width: 100%;
+    border-radius: 20%;
 }
 
 
