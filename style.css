@@ -72,13 +72,13 @@ html, body{
 }
 
 .my-image[src="reviews.jpg"]{
-    max-width: 85%; 
+    max-width: 83%; 
     height: auto; 
     object-fit: contain; 
 }
 
 .my-image[src="about.jpg"]{
-    max-width: 95%; 
+    max-width: 100%; 
     height: auto; 
     object-fit: contain; 
 }
@@ -117,7 +117,7 @@ html, body{
     border-color: black;
     border-style: double;
     color: black; 
-    max-width: 1000px;  
+    max-width: 90%;  
     margin-right: 5%;
     margin-left: 5%;
 }
@@ -220,10 +220,6 @@ html, body{
 
 .font-title{
     font-family: 'Times New Roman', Times, serif;
-}
-
-.font-text{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .underline{
