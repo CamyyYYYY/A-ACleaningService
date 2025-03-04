@@ -147,7 +147,7 @@ html, body{
 }
 
 .wordssix{
-    max-width: 100%;
+    max-width: 95%;
     font-size: 3rem;
     background-color: black;
     border-width: 10px;
@@ -161,7 +161,7 @@ html, body{
 }
 
 .wordsfive{
-    max-width: 100%;
+    max-width: 70%;
     background-color: #b79287;
     border-width: 10px;
     border-radius: 30px;
