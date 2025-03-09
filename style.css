@@ -98,7 +98,7 @@ html, body{
 }
 
 .review-img {
-    max-width: 240px;
+    max-width: 120%;
     margin: auto;
     height: auto;
 }
@@ -121,7 +121,7 @@ html, body{
 
 .carousel img{
     height: auto; 
-    max-width: 215px;
+    max-width: 60%;
     margin: auto;
     border-radius: 5%;
 }
