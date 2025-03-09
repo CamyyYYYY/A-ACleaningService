@@ -4,6 +4,15 @@ body{
     color: white;
 }
 
+.box{
+    background-color: #b79287; /* Your original background color */
+    background-image: url('fancy-cushion.jpg'); /* Replace with your texture image */
+    background-size: cover; /* Ensures the texture covers the screen */
+    background-position: center; /* Centers the texture */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-blend-mode: multiply; /* Blends texture with the background color */
+}
+
 html, body{
     overflow-x: hidden;
     width: 100%;
@@ -139,7 +148,7 @@ html, body{
 
 .carousel img{
     height: auto; 
-    max-width: 60%;
+    max-width: 53.5%;
     margin: auto;
     border-radius: 5%;
 }
@@ -177,8 +186,8 @@ html, body{
     border-width: 10px;
     border-radius: 30px;
     border-color: black;
-    border-style: double;
-    color: white;   
+    border-style: double; 
+    color: black;
     padding-bottom: 2%;
     margin: auto;
 }
@@ -190,7 +199,7 @@ html, body{
     border-radius: 30px;
     border-color: black;
     border-style: double;
-    color: white;   
+    color: black;   
     padding-bottom: 2%;
     padding-top: 2%;
     margin: auto;
