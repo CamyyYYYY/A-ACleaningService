@@ -91,18 +91,36 @@ html, body{
     border-radius: 10px;
 }
 
-.about-image{
-    border-radius: 10px;
-    max-width: 95%;
+.about-image {
+    width: 100%;  
+    max-width: 800px;
     height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
 
-.review-img {
-    max-width: 120%;
+@media (max-width: 768px) {
+    .about-image {
+        width: 90%;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-image {
+        width: 95%;
+        max-width: 4000px;
+    }
+}
+
+.carousel .review-img {
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     height: auto;
+    display: block;
 }
-
 
 .my-imagetwo[src="facebook.jpg"] {
     padding-top: 2.5%;
