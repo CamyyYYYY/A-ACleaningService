@@ -97,11 +97,12 @@ html, body{
     height: auto;
 }
 
-.review-image{
-    border-radius: 10px;
+.review-img {
+    max-width: 240px;
+    margin: auto;
     height: auto;
-    object-fit: contain;
 }
+
 
 .my-imagetwo[src="facebook.jpg"] {
     padding-top: 2.5%;
@@ -120,7 +121,7 @@ html, body{
 
 .carousel img{
     height: auto; 
-    max-width: 63%;
+    max-width: 215px;
     margin: auto;
     border-radius: 5%;
 }
