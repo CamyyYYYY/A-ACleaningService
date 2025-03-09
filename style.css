@@ -93,13 +93,14 @@ html, body{
 
 .about-image{
     border-radius: 10px;
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
 }
 
-.my-image[src="reviewone.jpg"] .my-image[src="reviewtwo.jpg"] .my-image[src="reviewthree.jpg"] {
-    max-width: 100%; 
-    height: auto; 
+.review-image{
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
     object-fit: contain;
 }
 
