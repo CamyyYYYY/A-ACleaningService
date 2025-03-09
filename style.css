@@ -101,7 +101,7 @@ html, body{
 }
 
 .about-image {
-    width: 100%;  
+    width: 90%;  
     max-width: 800px;
     height: auto;
     display: block;
