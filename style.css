@@ -118,7 +118,7 @@ html, body{
 
 @media (max-width: 480px) {
     .about-image {
-        width: 95%;
+        width: 90%;
         max-width: 4000px;
     }
 }
