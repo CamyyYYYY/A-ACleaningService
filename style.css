@@ -93,7 +93,7 @@ html, body{
 
 .about-image{
     border-radius: 10px;
-    max-width: 92.5%;
+    max-width: 95%;
     height: auto;
 }
 
@@ -120,7 +120,7 @@ html, body{
 
 .carousel img{
     height: auto; 
-    max-width: 60%;
+    max-width: 80%;
     margin: auto;
     border-radius: 5%;
 }
