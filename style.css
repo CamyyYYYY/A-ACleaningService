@@ -101,7 +101,7 @@ html, body{
 }
 
 .about-image {
-    width: 90%;  
+    width: 100%;  
     max-width: 800px;
     height: auto;
     display: block;
@@ -118,14 +118,14 @@ html, body{
 
 @media (max-width: 480px) {
     .about-image {
-        width: 90%;
-        max-width: 4000px;
+        width: 95%;
+        max-width: 400px;
     }
 }
 
 .carousel .review-img {
-    width: 100%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 100%;
     margin: auto;
     height: auto;
     display: block;
@@ -262,7 +262,7 @@ html, body{
 }
 
 .reviews{
-    max-width: 70%;
+    max-width: 75%;
     display: block;
     white-space: normal;
     overflow-wrap: break-word;
