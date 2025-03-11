@@ -102,7 +102,7 @@ html, body{
 
 .about-image {
     width: 100%;  
-    max-width: 800px;
+    max-width: 1100px;
     height: auto;
     display: block;
     margin: auto;
@@ -188,7 +188,7 @@ html, body{
     border-color: black;
     border-style: double; 
     color: black;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin: auto;
 }
 
