@@ -101,25 +101,29 @@ html, body{
 }
 
 .about-image {
-    width: 100%;  
-    max-width: 1500px;
+    width: 65vw;         /* Default for large screens */
+    max-width: 1000px;
     height: auto;
     display: block;
     margin: auto;
     border-radius: 10px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .about-image {
-        width: 90%;
-        max-width: 600px;
+        width: 75vw;     /* Medium screens */
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     .about-image {
-        width: 95%;
-        max-width: 400px;
+        width: 85vw;     /* Tablets */
+    }
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        width: 95vw;    /* Phones */
     }
 }
 
@@ -155,7 +159,7 @@ html, body{
 
 .words{
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     background-color: #b79287;
     border-width: 10px;
     border-color: black;
@@ -193,16 +197,17 @@ html, body{
 }
 
 .wordsfive{
-    max-width: 90%;
+    max-width: 100%;
+    width: 75vw;
     background-color: #b79287;
     border-width: 10px;
     border-radius: 30px;
     border-color: black;
     border-style: double;
     color: black;   
-    padding-bottom: 2%;
-    padding-top: 2%;
     margin: auto;
+    height: 190px;
+    font-size: 3.3em;
 }
 
 .wordssix{
