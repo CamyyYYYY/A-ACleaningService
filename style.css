@@ -101,29 +101,35 @@ html, body{
 }
 
 .about-image {
-    width: 65vw;         /* Default for large screens */
-    max-width: 1000px;
-    height: auto;
+    width: 70vw;          /* Base width: 70% of viewport width */
+    max-width: 900px;     /* Prevent it from getting too big on large screens */
+    height: auto;         /* Maintain aspect ratio */
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
+    transition: all 0.3s ease;  /* Smooth resizing effect */
 }
 
+/* Medium screens (tablets) */
 @media (max-width: 992px) {
     .about-image {
-        width: 75vw;     /* Medium screens */
+        width: 80vw;
     }
 }
 
+/* Small screens (phones & small tablets) */
 @media (max-width: 768px) {
     .about-image {
-        width: 85vw;     /* Tablets */
+        width: 90vw;
     }
 }
 
+/* Extra small screens (phones) */
 @media (max-width: 576px) {
     .about-image {
-        width: 95vw;    /* Phones */
+        width: 95vw;
+        padding: 0 10px;
     }
 }
 
@@ -196,18 +202,37 @@ html, body{
     margin: auto;
 }
 
-.wordsfive{
-    max-width: 100%;
-    width: 75vw;
+.wordsfive {
+    width: 85%;
+    max-width: 1000px;
+    margin: auto;
     background-color: #b79287;
     border-width: 10px;
     border-radius: 30px;
     border-color: black;
     border-style: double;
-    color: black;   
-    margin: auto;
-    height: 190px;
-    font-size: 3.3em;
+    color: black;
+    font-size: 1.8rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .about-image {
+        width: 85vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-image {
+        width: 95vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .about-image {
+        width: 100vw;
+    }
 }
 
 .wordssix{
