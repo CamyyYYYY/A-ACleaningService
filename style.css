@@ -5,12 +5,12 @@ body{
 }
 
 .box{
-    background-color: #b79287; /* Your original background color */
-    background-image: url('fancy-cushion.jpg'); /* Replace with your texture image */
-    background-size: cover; /* Ensures the texture covers the screen */
-    background-position: center; /* Centers the texture */
-    background-repeat: no-repeat; /* Prevents tiling */
-    background-blend-mode: multiply; /* Blends texture with the background color */
+    background-color: #b79287; 
+    background-image: url('fancy-cushion.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-blend-mode: multiply; 
 }
 
 html, body{
@@ -40,6 +40,9 @@ html, body{
     margin: auto;
 }
 
+.service-class{
+    font-size: 3rem;
+}
 
 .text-center{
     text-align: center;
@@ -101,9 +104,9 @@ html, body{
 }
 
 .about-image {
-    width: 80vw;          /* Base width: 70% of viewport width */
-    max-width: 1300px;     /* Prevent it from getting too big on large screens */
-    height: auto;         /* Maintain aspect ratio */
+    width: 80vw;        
+    max-width: 1300px;    
+    height: auto;         
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -111,21 +114,18 @@ html, body{
     transform: translateX(-12.5px);
 }
 
-/* Medium screens (tablets) */
 @media (max-width: 992px) {
     .about-image {
         width: 90vw;
     }
 }
 
-/* Small screens (phones & small tablets) */
 @media (max-width: 768px) {
     .about-image {
         width: 95vw;
     }
 }
 
-/* Extra small screens (phones) */
 @media (max-width: 576px) {
     .about-image {
         width: 100vw;
