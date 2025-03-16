@@ -20,36 +20,30 @@ html, body{
 
 .custom-border{
     background-color: black;
-    border-width: 10px;
+    border-width: 8px;
     border-color: white;
     border-style:double;
-    padding-top: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding: 0.5rem 1rem;
     text-align: center;
     border-radius: 20px;
-
-    width: 50%; 
-    min-width: 100px;
-    max-width: 400px; 
-    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    margin: 1rem auto;
   }
-
-@media (max-width: 992px) {
-    .custom-border {
-        width: 92.5vw;
-    }
-}
 
 @media (max-width: 768px) {
     .custom-border {
-        width: 95vw;
+        width: 95%;
+        border-width: 5px;
+        padding: 0.5rem;
     }
 }
 
 @media (max-width: 576px) {
     .custom-border {
-        width: 90vw;
+        width: 95%;
+        border-width: 3px;
+        padding: 0.25rem;
     }
 }
 
@@ -309,6 +303,31 @@ html, body{
     color: white;
 }
 
+.phone-number {
+    font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+    .phone-number {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .phone-number {
+        font-size: 1.5rem;
+    }
+}
+
+.quote-button {
+    font-size: 3rem;
+}
+
+@media (max-width: 576px) {
+    .quote-button {
+        font-size: 1.5rem;
+    }
+}
 
 .font-title{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -316,11 +335,28 @@ html, body{
 
 .underline{
     text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
 }
 
 .underlinetwo{
     text-decoration: underline;
-    text-decoration-color: black;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 1px;
+}
+
+@media (max-width: 576px) {
+    .underlinetwo {   
+        text-underline-offset: 2px;
+        text-decoration-thickness: 0.5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .underline {   
+        text-underline-offset: 2px;
+        text-decoration-thickness: 0.5px;
+    }
 }
 
 .bold{
