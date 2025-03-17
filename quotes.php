@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         ";
 
         $mail->send();
-        echo "Thanks for your inquiry! We'll reach back with a quote as soon as possible.";
+        echo "<p style='text-center; font-size: 24px; font-weight: bold;'>Thanks for your inquiry! We'll reach back with a quote as soon as possible.</p>";
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
